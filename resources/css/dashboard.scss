@@ -1,0 +1,38 @@
+body {
+    font-family: "Roboto", sans-serif;
+    @apply text-gray-700;
+}
+
+body, html {
+    height: 100%;
+}
+
+.api-wrap {
+    @apply py-6;
+
+    .api-code {
+        @apply rounded-full;
+        @apply bg-gray-200;
+        @apply font-mono;
+        @apply leading-none;
+        @apply px-4;
+        @apply py-4;
+        @apply text-lg;
+    }
+
+    .api-desc {
+        @apply pl-4;
+        @apply pt-4;
+        @apply leading-normal;
+        @apply text-gray-600;
+    }
+}
+
+.form-list-notice-box {
+    @apply bg-teal-100;
+    @apply p-6;
+    @apply mb-6;
+    @apply leading-normal;
+    @apply text-sm;
+    @apply text-teal-600;
+}
